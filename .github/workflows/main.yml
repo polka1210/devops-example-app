@@ -6,7 +6,7 @@ on:
       - "main"
 
 env:
-  TEST_TAG: alkselsv/devops-example-app:test
+  TEST_TAG: polka1210/devops-example-app:test
 
 jobs:
   docker:
@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: alkselsv/devops-example-app:latest
+          tags: polka1210/devops-example-app:latest
 
       - name: Build and push caddy
         uses: docker/build-push-action@v2

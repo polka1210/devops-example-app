@@ -6,7 +6,7 @@ on:
       - v*
 
 env:
-  APP_IMAGE_NAME: alkselsv/devops-example-app
+  APP_IMAGE_NAME: polka1210/devops-example-app
   CADDY_IMAGE_NAME: alkselsv/devops-example-caddy
 
 jobs:
